@@ -8,10 +8,18 @@
 ### 3. Implémenter les deux services à l'aide de docker-compose qui construira les deux images
 ### 4. Connecter le frontend à une api backend pour y chercher des données
 
-## L'arborescence du projet
+## Creer l'arborescence du projet
 
 Avant la création de projets:
-```
+
+$ sudo mkdir project
+$ sudo mkdir project/frontend
+$ sudo mkdir project/backend
+
+$ sudo touch project/backend/Dockerfile
+$ sudo touch project/backend/requirements.txt
+$ sudo touch project/frontend/Dockerfile
+
 ├── backend
 │   ├── Dockerfile
 │   └── requirements.txt
